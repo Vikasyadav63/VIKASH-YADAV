@@ -1,0 +1,16 @@
+.blog-nav{
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+
+    
+}
+.img_cont{
+    vertical-align: middle;
+    margin-top: 16px;
+    padding-top: 3rem;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}

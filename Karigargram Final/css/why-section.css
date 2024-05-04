@@ -1,0 +1,59 @@
+.why-container {
+  margin-top: 100px;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
+.why-container h1 {
+  font-size: 30px;
+}
+
+.why-container p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.why-container .feature_cards {
+  margin-top: 50px;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  gap: 15px;
+}
+
+.why-container .feature_cards .feature_card span p {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.why-container .image-container {
+  width: 600px;
+  min-width: 300px;
+  overflow: hidden;
+}
+
+.why-container .image-container img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+@media (max-width: 1050px) {
+  .why-container {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .why-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .why-container .image-container {
+    width: 100%;
+    min-width: 0;
+  }
+}
